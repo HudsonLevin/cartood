@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:macro name="double_arm_left_tr" params="">
+        <joint name="double_arm_left">
+        <command_interface name="velocity">
+            <param name="min">-0.785</param>
+            <param name="max">0.67</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    <xacro:macro name="double_arm_right_tr" params="">
+        <joint name="double_arm_right">
+        <command_interface name="velocity">
+            <param name="min">-0.785</param>
+            <param name="max">0.67</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+</robot>

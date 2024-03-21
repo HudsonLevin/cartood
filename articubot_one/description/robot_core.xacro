@@ -42,7 +42,7 @@
                 <mesh filename="file://$(find articubot_one)/description/cartood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="100" x="0" y="0" z="0"> 
+        <xacro:inertial_box mass="600" x="0" y="0" z="0"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_box>
     </link>
@@ -74,7 +74,6 @@
         <child link="left_middle_wheel"/> 
         <origin xyz="0.162737 0.072599 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/> 
-        <dynamic dim="1" friction="100"/>
     </joint>
     <link name="left_middle_wheel"> 
         <visual>
@@ -88,7 +87,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="50" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
@@ -103,7 +102,6 @@
         <child link="left_back_wheel"/> 
         <origin xyz="0.162737 0.172599 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/> 
-        <dynamic dim="1" friction="100"/>
     </joint>
     <link name="left_back_wheel"> 
         <visual>
@@ -117,7 +115,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="50" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
@@ -133,7 +131,6 @@
         <child link="left_front_wheel"/> 
         <origin xyz="0.162737 -0.027401 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/>
-        <dynamic dim="1" friction="100"/> 
     </joint>
     <link name="left_front_wheel"> 
         <visual>
@@ -147,7 +144,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="50" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
@@ -162,7 +159,6 @@
         <child link="right_middle_wheel"/> 
         <origin xyz="-0.186263 0.072599 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/> 
-        <dynamic dim="1" friction="100"/>
     </joint>
     <link name="right_middle_wheel"> 
         <visual>
@@ -176,7 +172,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="50" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
@@ -191,7 +187,6 @@
         <child link="right_back_wheel"/> 
         <origin xyz="-0.186263 0.172599 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/> 
-        <dynamic dim="1" friction="100"/>
     </joint>
     <link name="right_back_wheel"> 
         <visual>
@@ -205,7 +200,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="50" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
@@ -221,7 +216,6 @@
         <child link="right_front_wheel"/> 
         <origin xyz="-0.186263 -0.027401 0" rpy="0 0 0"/> 
         <axis xyz="1 0 0"/> 
-        <dynamic dim="1" friction="100"/>
     </joint>
     <link name="right_front_wheel"> 
         <visual>
@@ -235,7 +229,7 @@
                 <mesh filename="file://$(find articubot_one)/description/wheeltood.dae" scale="1 1 1"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="25" length="0.05" radius="0.05"> 
+        <xacro:inertial_cylinder mass="100" length="0.05" radius="0.05"> 
             <origin xyz="0 0 0" rpy="0 0 0"/> 
         </xacro:inertial_cylinder>
     </link>
